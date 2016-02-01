@@ -9,6 +9,14 @@ body {
     stroke-width: 1.5px;
 }
 
+.humidity {
+    stroke: orange;
+}
+
+.temperature {
+    stroke: steelblue;
+}
+
 .axis path,
 .axis line {
     fill: none;
