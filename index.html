@@ -98,6 +98,18 @@ See the <a href="https://www.tradlosetrondheim.no/temperature-monitoring-with-lo
              svg.append("g")
                 .attr("class", "y axis")
                 .call(yAxis);
+
+             svg.append("text")
+                .attr("text-anchor", "end")
+                .attr("x", 200)
+                .attr("y", 50)
+                .text("Temperature");
+
+             svg.append("text")
+                .attr("text-anchor", "end")
+                .attr("x", 300)
+                .attr("y", 150)
+                .text("Humidity");
             });
     </script>
 </footer>
